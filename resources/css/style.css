@@ -1,0 +1,167 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+
+}
+
+/*Navigation Section*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+nav li {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+nav img {
+  padding-right: 15px;
+}
+
+/*Jumbotron Section*/
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron .container-fluid {
+  margin-top: 11.85rem;
+  margin-bottom: 11.85rem;
+  color: white;
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton';
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media only screen and (max-width: 991px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+.btn {
+  margin-top: 2.8rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  width: 11.4rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+.btn:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+  background-color: #399bd1;
+}
+.btn:active {
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.75;
+  transition: opacity 1s, transform 1s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+/*Featured Project Section*/
+.featured h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #399bd1;
+}
+.featured h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.product h4 {
+  color: #399bd1;
+}
+
+.featured li {
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
+
+/*Projects Section*/
+.projects {
+  margin-bottom: 5.85rem;
+}
+
+.projects h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.projects h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+/*Help Section*/
+.help {
+  background-color: #f3f3f3;
+}
+
+.help h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.help p {
+  width: 42rem;
+  margin: auto;
+}
+
+.help .btn {
+    margin-bottom: 5.2rem;
+}
+
+/*
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Monoton', cursive;
+*/
